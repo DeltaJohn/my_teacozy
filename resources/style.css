@@ -1,0 +1,140 @@
+/* Universal Styles */
+
+body {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: white;
+}
+
+/* Header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  border-bottom: solid seashell 1px;
+}
+
+.header img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+a {
+  color: seashell;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+
+
+
+/* Mission */
+
+.mission {
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  background-image: url("./img-mission-background.jpg");
+}
+
+.stmt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 100%;
+}
+
+.stmt h2, h4 {
+  margin: .5rem 0;
+}
+
+/* Tea of the Month */
+
+.tea-month {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tri-pix, .bi-pix {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 1000px;
+}
+
+.tea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tea img {
+  width: 300px;
+  height: 200px;
+  margin: 10px 10px;
+}
+
+/* Locations */
+
+.locations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 1200px;
+  background-image: url(./img-locations-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 50px auto 10px;
+}
+
+.locations h1 {
+  margin-bottom: 0px;
+}
+
+.loc-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  width: 1000px;
+}
+
+.loc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+  background-color: black;
+}
+
+#East-Bayside {
+  margin: 0px 40px;
+}
+
+/* Footer */
+
+footer {
+  height: 200px;
+  text-align: center;
+}
+
+footer h1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
